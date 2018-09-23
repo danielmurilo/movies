@@ -1,0 +1,14 @@
+estagio\config\SecurityConfig.class
+estagio\config\InMemorySecurityConfig.class
+estagio\model\VisitRepo.class
+estagio\model\MoviesRepo.class
+estagio\controllers\MainController.class
+estagio\model\Visit.class
+estagio\controllers\MoviesController.class
+estagio\model\Movie.class
+estagio\model\Search.class
+estagio\Application.class
+estagio\model\AppUserRepo.class
+estagio\config\WebSecurityConfig.class
+estagio\model\SearchesRepo.class
+estagio\model\AppUser.class
