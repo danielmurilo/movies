@@ -27,7 +27,7 @@
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-taglibs</artifactId>
-			</dependency>
+		</dependency>
 
 		<dependency>
 			<groupId>commons-fileupload</groupId>
@@ -59,7 +59,7 @@
 		<dependency>
 			<groupId>org.yaml</groupId>
 			<artifactId>snakeyaml</artifactId>
-			</dependency>
+		</dependency>
 
 
 
@@ -67,4 +67,5 @@
 	<build>
 		<finalName>estagio</finalName>
 	</build>
+	
 </project>

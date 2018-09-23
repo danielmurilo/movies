@@ -2,7 +2,6 @@ package estagio.controllers;
 
 import java.io.InputStream;
 import java.util.List;
-
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.io.IOUtils;
@@ -108,7 +107,7 @@ public class MoviesController {
 			try {
 				movie.setImgTO64(Base64Coder.encodeLines(movie.getImage()));
 			} catch (Exception e) {
-				// TODO: handle exception
+				System.out.println(e.getMessage());
 			}
 
 		}
@@ -128,7 +127,7 @@ public class MoviesController {
 			try {
 				movie.setImgTO64(Base64Coder.encodeLines(movie.getImage()));
 			} catch (Exception e) {
-				// TODO: handle exception
+				System.out.println(e.getMessage());
 			}
 
 		}
